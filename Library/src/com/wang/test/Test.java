@@ -42,7 +42,6 @@ public class Test {
         //bc.queryBookById(2);
         /*ReaderDao rd = new ReaderDaoImpl();
         rd.queryReaderById(2);*/
-
         //借书
         System.out.println("。。。。。借书。。。。。");
         Scanner sc = new Scanner(System.in);
@@ -53,7 +52,6 @@ public class Test {
         long bookid=sc2.nextLong();
         RecordService rod= new RecordServiceImpl();
         rod.Borrow(readerid,bookid);
-
         //还书
         /*System.out.println("。。。。。还书。。。。。");
         Scanner sc3 = new Scanner(System.in);
